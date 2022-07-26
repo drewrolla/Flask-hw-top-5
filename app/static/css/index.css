@@ -1,0 +1,17 @@
+body {
+    color: black;
+    font-family: 'Monaco', monospace;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  
+}
+a:hover {
+    color: palevioletred; 
+}
+p {
+    font-size: 5vh;
+}

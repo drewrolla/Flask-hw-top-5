@@ -7,7 +7,6 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
 <title>Top 5</title>
 </head>
 <body>
@@ -16,12 +15,12 @@
 
         {% for x in names %}
         <div class="container">
-            <div class="row justify-content-start">
+            <div class="row align-items-center">
                 <div class="col-4 card" style="width: 18rem;">
                     <img src="{{ x['img'] }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">{{ x['name']}}</h3>
-                        <p class="card-text">{{ x['genre']}}</p>
+                        <p class="card-text">Genre(s): {{ x['genre']}}</p>
                     </div>
                 </div>
             </div>
